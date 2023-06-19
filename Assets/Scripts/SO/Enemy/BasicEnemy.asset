@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66682c2db4f6ee540a3a165d5102612f, type: 3}
+  m_Name: BasicEnemy
+  m_EditorClassIdentifier: 
+  speed: 3
+  angularSpeed: 120
+  acceleration: 8
+  timeToReset: 3
+  attackRange: 7
+  searchDelay: 0.2
+  health: 100
+  obstructionMask:
+    serializedVersion: 2
+    m_Bits: 256
+  bulletPrefab: {fileID: 4069113740683802258, guid: ed773b5e8c6eed9419c75f415cf4f607, type: 3}
+  reloadDelay: 1
+  bulletSpeed: 5
